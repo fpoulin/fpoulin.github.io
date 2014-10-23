@@ -27,9 +27,9 @@
 .section-last hr {background: transparent; border: 1px solid #fff;}
 .main-wrap .section h3 i {margin-right: 15px; font-size: 0.8em; font-weight: 100;}
 .main-wrap .section-education .section-education-list .education-item, .main-wrap .section-work .section-work-list .work-item {margin-bottom: 40px;font-size: 0.9em;}
-.section-work-list h4, .section-education-list h4 {margin-top: 0;}
-.section-work-list h4 i, .section-education-list h4 i {margin-right: 10px;}
-.section-work-list h4 small, .section-education-list h4 small, .section-projects-item h4 small {font-style: italic; font-size: 0.6em;}
+.section-work-list h4, .section-education-list h4, .section-portfolio h4 {margin-top: 0;}
+.section-work-list h4 i, .section-education-list h4 i, .section-portfolio h4 i {margin-right: 10px;}
+.section-work-list h4 small, .section-education-list h4 small, .section-projects-item h4 small, .section-portfolio h4 small {font-style: italic; font-size: 0.6em;}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail {margin-bottom: 20px;}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap {padding: 10px; background: #fff; -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.2); -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.2);box-shadow: 0px 0px 3px rgba(0,0,0,0.2);}
 .main-wrap .section-portfolio .section-portfolio-row-wrap .portfolio-item-thumbnail .portfolio-item-thumbnail-wrap img {width: 100%;}
@@ -63,44 +63,3 @@
 	
 	.main-wrap .section-projects .section-projects-item .projects-item-excerpt h4 {margin: 20px 0;}
 }
-
-/**************/
-/*  MIRRORED  */
-/**************/
-
-.mirror-mode .intro-slogan {text-align: right; margin-left: -60px !important; margin-right: 60px !important;}
-.mirror-mode .intro-slogan:after {left: 0 !important; border-right: 0 !important; border-left: 30px solid transparent !important;}
-
-/* VCARD STYLING */
-.mirror-mode .vcard-wrap {margin-left: -30px !important; margin-right: 60px !important;}
-/* VCARD STYLING ENDS HERE */
-
-.mirror-mode .main-wrap .section {padding: 0 60px 40px 60px;}
-.mirror-mode .main-wrap .section h3 {margin-right: 0 !important; padding-left: 80px !important; margin-left: -75px !important;}
-.mirror-mode .main-wrap .section h3:after {left: 0 !important; border-right: 0 !important; border-left: 15px solid transparent !important;}
-
-/* media query for mobile devices in mirror-mode*/
-@media (max-width: 767px) { 
-	.mirror-mode .vcard-wrap {margin-right: 0 !important; margin-left: 0 !important;}
-	.mirror-mode .intro-slogan {padding: 30px; margin-right: 20px !important; margin-left: -10px !important; font-size: 4em;}
-	.mirror-mode .intro-slogan:after {left: 0 !important; border-left: 10px solid transparent !important;}
-	
-	.mirror-mode .main-wrap .section {padding: 0 30px 40px 30px;}
-	.mirror-mode .main-wrap .section h3 {margin-left: -40px !important; margin-left: 0; text-align: center;}
-	.mirror-mode .main-wrap .section h3:after {border-right: 0 !important; border-left: 10px solid transparent !important;}
-}
-
-
-
-
-/* Skin Changer Styling */
-.skin-changer {position: fixed; top: 0; left: 40px; background: #999999; z-index: 9999;}
-#skins {display: none; list-style-type: none; margin: 0;}
-#skins li {background: #eee; margin: 5px; padding: 5px;}
-.open-skin-changer p {margin-top: 10px; margin-left: -10px; margin-right: -10px; padding: 10px; background: #000; color: #fff;}
-.open-skin-changer:hover {cursor: pointer;}
-.active-skin {background: #a3a3a3 !important;}
-.active-skin a{color: #fff !important;}
-.mirror-mode-switch {background: #160816 !important; color: #fff !important;}
-.mirror-mode-switch a{color: #fff !important;}
-.mirror-mode-on {background: #88a65e !important;}
