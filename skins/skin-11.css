@@ -1,0 +1,27 @@
+body {background: url('../images/bg-patterns/12.png') repeat;}
+
+/* Lnk colors */
+a {color: #08C;}
+a:hover {color: #005580;}
+/* Link colors ends here /*
+
+/* Custom fonts start */
+.intro-slogan {font-family: "squada-one", serif; font-weight: normal;}
+.main-wrap .section h3 {font-family: "bebas-neue", serif; font-weight: normal; letter-spacing: 2px;}
+/* Custom fonts end */
+
+.css3-gradient {
+background: #BC8554;
+}
+.intro-slogan:after {border-top: 30px solid #683D2F;}
+
+.css3-gradient-2 {
+background: #5F1D2B;
+}
+.main-wrap .section h3:after {border-top: 15px solid #3D1217;}
+
+
+@media (max-width: 767px) { 
+	.intro-slogan:after {border-top: 10px solid #683D2F;}
+	.main-wrap .section h3:after {border-top: 10px solid #3D1217;}
+}
