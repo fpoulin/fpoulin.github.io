@@ -41,6 +41,7 @@
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta {margin-bottom: 10px;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta span {font-weight: bold; margin-right: 20px;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta span i{margin-right: 5px;}
+.main-wrap .toggleable { display: none;}
 .section hr {margin: 40px 0;}
 .footer .row {text-align: right; border-top: 1px solid #eee;}
 .footer p {margin: 20px 30px; font-style: italic; color: #6c6c6c;}
