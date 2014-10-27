@@ -31,7 +31,7 @@
 				<div class="vcard-wrap">
 				<!-- begin .vcard-photo -->
 				<div class="vcard-photo">				
-					<img src="images/avatar.jpg"/>
+					<img src="images/avatar.jpg" title="Hi, this is me in pixels"/>
 				</div>
 				<!-- end .vcard-photo -->
 				
@@ -178,6 +178,7 @@
 									<li>Detailed planning and follow-up of the delivery throughout the project following a very aggressive schedule, as the Scrum Master</li>
 									<li>Various contributions to the backend development including integration to payment gateways, item purchase, user account management, multi-device handling, automated UI testing, ...</li>
 									<li>Maintenance and support of the platform in production</li>
+									<li>Hiring, coaching and team-building of a growing development crew, with developers in Switzerland and Romania</li>
 								</ul>
 							</div>
 							<p><a href="#tgl-iac" class="moreInfo-tgl">More info</a></p>
@@ -198,7 +199,19 @@
 							<h4>Licensed Mobile Environment (LiME)<br/><small>Senior Developer @ Lotaris SA, Switzerland</small></h4>
 							<p>B2B service to license Mobile Applications.</p>
 							<div id="tgl-lme" class="toggleable">
-								(soon)
+								<h5>About the project</h5>
+								<p>LiME is a service providing flexible licensing and in-app payment capabilities for their Mobile applications. It was built and operated as a managed service to help major Software companies monetize their Mobile applications through various distribution channels (retail, OEM, mobile operators, app-stores), using various payment methods (credit card, premium SMS, mobile operator billing, retail scratch cards) and following various licensing models (fremium, perpetual licenses, fixed-length licenses, subscriptions).</p>
+								<p>The service, built for Android and iOS, uses a server-driven native UI payment experience. It means that from the consumer point of view, the UI is platform specific (using the platform native UI controls, not a Web view) but the screens are driven from the backend, which allows to dynamically change the payment process based on server configurations.</p>
+								<p>At the time of writing this, companies like Symantec and Capcom are still relying on LiME to monetize some of their Mobile applications.</p>
+								<h5>Some contributions</h5>
+								<ul>
+									<li>Automation of the build and deployment process (on the development environments), using Maven and Jenkins</li>
+									<li>Design and implementation of an internal State Machine framework to facilitate the modelisation of various business models (eventually used essentially for subscriptions and their automatic renewal)</li>
+									<li>Various contributions on partner integrations (including payment gateways and Mobile operators)</li>
+									<li>Design and implementation of a generic mock system, allowing LiME to be tested in isolation from integrated partners (required for automated tests and performance test compaigns)</li>
+									<li>Definition and execution of performance tests campaigns (setting-up the test environment, writing the load injection scripts using JMeter, execution and documentation of the test campaigns and follow-up optimizations at applicative and database levels)</li>
+									<li>Suggestion, specification, planning and implementation of a major platform refactoring from a three servers / three databases architecture (with lots of inter-server REST communications) to a one server / one database architecture. This implied the merge of the business logic in the backends and complex SQL migration scripts to merge the three MySQL databases (with millions of records in each database). The resulting architecture allowed for reduced operational costs, largely improved performance, more stability and faster development</li>
+								</ul>
 							</div>
 							<p><a href="#tgl-lme" class="moreInfo-tgl">More info</a></p>
 						</div>
