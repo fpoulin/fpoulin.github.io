@@ -24,7 +24,7 @@
 .section-first h3 {margin-top: 0;}
 .section-last hr {background: transparent; border: 1px solid #fff;}
 .main-wrap .section h3 i {margin-right: 15px; font-size: 0.8em; font-weight: 100;}
-.main-wrap .section-education .section-education-list .education-item, .main-wrap .section-work .section-work-list .work-item {margin-bottom: 40px;font-size: 0.9em;}
+.main-wrap .section-education .section-education-list .education-item, .main-wrap .section-work .section-work-list .work-item, .main-wrap .section-projects .section-projects-item {margin-bottom: 40px;font-size: 0.9em;}
 .section-work-list h4, .section-education-list h4, .section-portfolio h4 {margin-top: 0;}
 .section-work-list h4 i, .section-education-list h4 i, .section-portfolio h4 i {margin-right: 10px;}
 .section-work-list h4 small, .section-education-list h4 small, .section-projects-item h4 small, .section-portfolio h4 small {font-style: italic; font-size: 0.6em;}
@@ -39,7 +39,6 @@
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt {}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt h4 {font-size: 1.4em;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt h4 a {color: #333;}
-.main-wrap .section-projects .section-projects-item .projects-item-excerpt p {font-size: 0.9em;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta {margin-bottom: 10px;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta span {font-weight: bold; margin-right: 20px;}
 .main-wrap .section-projects .section-projects-item .projects-item-excerpt .projects-item-meta span i{margin-right: 5px;}
