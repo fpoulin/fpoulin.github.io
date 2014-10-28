@@ -208,7 +208,7 @@
 									<li>Automation of the build and deployment process (on the development environments), using Maven and Jenkins</li>
 									<li>Design and implementation of an internal State Machine framework to facilitate the modelisation of various business models (eventually used essentially for subscriptions and their automatic renewal)</li>
 									<li>Various contributions on partner integrations (including payment gateways and Mobile operators)</li>
-									<li>Design and implementation of a generic mock system, allowing LiME to be tested in isolation from integrated partners (required for automated tests and performance test compaigns)</li>
+									<li>Design and implementation of a generic mock system, allowing LiME to be tested in isolation from integrated partners (required for automated tests and performance test campaigns)</li>
 									<li>Definition and execution of performance tests campaigns (setting-up the test environment, writing the load injection scripts using JMeter, execution and documentation of the test campaigns and follow-up optimizations at applicative and database levels)</li>
 									<li>Suggestion, specification, planning and implementation of a major platform refactoring from a three servers / three databases architecture (with lots of inter-server REST communications) to a one server / one database architecture. This implied the merge of the business logic in the backends and complex SQL migration scripts to merge the three MySQL databases (with millions of records in each database). The resulting architecture allowed for reduced operational costs, largely improved performance, more stability and faster development</li>
 								</ul>
@@ -231,7 +231,19 @@
 							<h4>Large Scale Video Annotation Mining (LSVAM)<br/><small>Research Assistant @ IICT / HEIG-VD, Switzerland</small></h4>
 							<p>Data-Mining techniques applied to content-based video retrieval systems.</p>
 							<div id="tgl-lsvam" class="toggleable">
-								(soon)
+								<h5>Abstract</h5>
+								<p>In order to achieve true content-based information retrieval on video we should analyse and index video with high-level semantic concepts in addition to using user-generated tags and structured metadata like title, date, etc. However the range of such high-level semantic concepts, detected either manually or automatically, is usually limited compared to the richness of information content in video and the potential vocabulary of available concepts for indexing. Even though there is work to improve the performance of individual concept classifiers, we should strive to make the best use of whatever partial sets of semantic concept occurrences are available to us. We describe in this paper our method for using association rule mining to automatically enrich the representation of video content through a set of semantic concepts based on concept co-occurrence patterns. We describe our experiments on the TRECVid 2005 video corpus annotated with the 449 concepts of the LSCOM ontology. The evaluation of our results shows the usefulness of our approach.</p>
+								<h5>Publication</h5>
+								<p><i>N. Fatemi, F. Poulin, L. Raileanu, A. Smeaton, “Using association rule mining to enrich semantic concepts for video retrieval”, International Conference on Knowledge Discovery and Information Retrieval: KDIR’09, Funchal, Madeira, October 2009.</i></p>
+								<h5>Some contributions</h5>
+								<ul>
+									<li>Active participation in the research process (participation to conferences, digestion of a number of state-of-the-art research papers in the field, elaboration and validation of ideas around semantic concept enrichments)</li>
+									<li>Numerous ETL algorithms on the large metadata corpus of TRECVid 2005 (using plain Java and crosstab SQL queries to build a database optimized for analysis)</li>
+									<li>Efficient implementation of various well-known Data-Mining algorithms such as <i>Apriori</i>, <i>FP-Growth</i> to explore Frequent Pattern Trees and <i>gen-Rules</i> to create decision rules</li>
+									<li>Adaptation and optimization of those algorithms to match the project requirements (considered one of the major contribution to the research paper)</li>
+									<li>Production of all sorts of output graphs (using <i>R</i> and Java) using a cross-validation process to validate and fine-tune the models</li>
+									<li>Co-writing of the published paper</li>
+								</ul>
 							</div>
 							<p><a href="#tgl-lsvam" class="moreInfo-tgl">More info</a></p>
 						</div>
