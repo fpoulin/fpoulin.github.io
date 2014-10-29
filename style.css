@@ -12,7 +12,7 @@
 .vcard .vcard-bio {padding: 30px; padding-top: 0;}
 .vcard .vcard-bio .vcard-name {margin-bottom: 0; text-align: center; margin-top: 20px;}
 .vcard .vcard-bio .vcard-info {}
-.vcard .vcard-bio .vcard-info i {margin-right: 10px; width: 10px; text-align: center;}
+.vcard .vcard-bio i, .vcard .vcard-bio .vcard-info i {margin-right: 10px; width: 10px; text-align: center;}
 .vcard code, .vcard small {color: #929292}
 .vcard p small {font-style: italic; font-size: 0.8em;}
 /* VCARD STYLING ENDS HERE */
